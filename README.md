@@ -43,21 +43,8 @@ Evaluation scripts are provided to assess model performance on various benchmark
 These scripts measure key performance indicators to ensure high-quality Arabic story generation.  
 
 ## Project Structure
-Hakawati-main/                   # Main project folder
-│── Evaluation_for_Baseline_and_Fine_tuned_LLaMA.ipynb
-│── Evaluation_for_Baseline_and_Finetuned_Quen3_5_7B.ipynb
-│── FineTuning_Qwen_2_5_(Hakawaty).ipynb
-│── Other_Arabic_LLMs_Experiments.ipynb
-│── README.md                     # Documentation
-│── fine_tuning_Llama3_1_(Hakawaty).ipynb
-│
-├── data/                         # Dataset-related files
-│   ├── generate_more_data.ipynb  # Script for augmenting dataset
-│   ├── merged_file (1120 rows).xlsx  # Processed dataset
-│
-└── helper/                       # Utility scripts
-    ├── Computing_maximum_tokens.ipynb  # Script for handling token limits
 
+<img src="https://github.com/user-attachments/assets/2bd4720e-3421-463c-93b1-5156fa6d8323" alt="Screenshot" width="600">
 
 ## Resources
 - [LoRA Paper](https://arxiv.org/abs/2106.09685)  
